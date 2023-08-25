@@ -1,0 +1,17 @@
+{
+  "name": "softpower.xyz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@theatre/core": "^0.7.0",
+    "@theatre/studio": "^0.7.0",
+    "three": "^0.155.0",
+    "vite": "^4.4.9"
+  }
+}
