@@ -126,7 +126,7 @@ scene.add(sunLight)
 
 
 const rgbloader= new RGBELoader(manager);
-rgbloader.load('./static/models/gltf/newenv.hdr' , (envMap)=>{
+rgbloader.load('./newenv.hdr' , (envMap)=>{
 
 	envMap.mapping = THREE.EquirectangularReflectionMapping;
 
@@ -145,7 +145,7 @@ rgbloader.load('./static/models/gltf/newenv.hdr' , (envMap)=>{
 /////////////////////////////////////////////////////////////////////////
 ///// LOADING GLB/GLTF MODEL FROM BLENDER
 let model;
-loader.load('./static/models/gltf/car.glb', function (gltf) {
+loader.load('./car.glb', function (gltf) {
 model = gltf.scene
 model.scale.set(4,4,4)
     scene.add(model)
